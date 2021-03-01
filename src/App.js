@@ -133,7 +133,8 @@ function App() {
         
       />  */}
         {/* <BarGraph/> */}
-        <Bar
+        <div className="bar">
+        <Bar 
           data={{
             labels: ['Infected', 'Recovered', 'Deaths'],
             datasets: [
@@ -146,6 +147,7 @@ function App() {
           }}
 
         />
+        </div>
       </div>
     </div>
   );

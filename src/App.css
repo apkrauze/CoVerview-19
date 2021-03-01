@@ -12,12 +12,26 @@ body{
   margin: 50px auto;
 }
 
+
+
 .cards {
   padding: 20px;
   box-sizing: border-box;
   box-shadow: 0 0 10px 0 #eee;
   border: 5px solid #cecece;
   transition: 0.3s;
+}
+
+.cards:nth-child(1){
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+.cards:nth-child(2){
+  background-color: rgba(0, 255, 0, 0.5);
+}
+
+.cards:nth-child(3){
+  background-color: rgba(255, 0, 0, 0.5);
 }
 
 .header {
@@ -42,6 +56,12 @@ body{
   flex-flow: wrap;
 }
 
+.bar{
+  padding-left: 90px;
+  position: relative; 
+  height:40vh; 
+  width:80vw
+}
 
 /* Responsive*/
 
@@ -58,6 +78,20 @@ body{
   
   .cards{
     width: 80%;
+    margin: auto;
+    background: pink;
+  }
+
+  .cards:nth-child(1){
+    background-color: rgba(0, 0, 255, 0.5);
+  }
+
+  .cards:nth-child(2){
+    background-color: rgba(0, 255, 0, 0.5);
+  }
+
+  .cards:nth-child(3){
+    background-color: rgba(255, 0, 0, 0.5);
   }
 
   .row{
@@ -65,6 +99,12 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    flex-flow: wrap;
+    margin: auto;
+  }
+
+  .bar{
+    margin-top: 50px;
+    padding-left: 35px;
+    
   }
 }
