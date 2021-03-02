@@ -14,8 +14,8 @@ function App() {
   const [totalDeaths, setTotalDeaths] = useState(0);
   const [loading, setLoading] = useState(false);
   const [covidInfo, setCovidInfo] = useState({});
-  const [months, setMonths] = useState(365);
-  const [country, setCountry] = useState('');
+/*   const [months, setMonths] = useState(365);
+ */  const [country, setCountry] = useState('');
 
 
   useEffect(() => {
